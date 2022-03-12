@@ -33,5 +33,5 @@ Example Playbook
       - nl-nl
 
   roles:
-    - { role: ansible-role-win11-languagepack }
+    - { name: ansible-role-win2022-languagepack }
 ```
