@@ -75,8 +75,8 @@
     Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-LanguageFeatures-OCR-{{ item }}-Package~31bf3856ad364e35~amd64~~.cab
     Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-LanguageFeatures-Speech-{{ item }}-Package~31bf3856ad364e35~amd64~~.cab
     Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-LanguageFeatures-TextToSpeech-{{ item }}-Package~31bf3856ad364e35~amd64~~.cab
-    Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~{{ item }}~.cab
-    Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~{{ item }}~.cab
+    Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab
+    Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab
     Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-MSPaint-FoD-Package~31bf3856ad364e35~amd64~{{ item }}~.cab
     Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-MSPaint-FoD-Package~31bf3856ad364e35~wow64~{{ item }}~.cab
     Add-WindowsPackage -Online -PackagePath {{ disk_image_out.results[0].mount_paths[0] }}LanguagesAndOptionalFeatures\Microsoft-Windows-Notepad-FoD-Package~31bf3856ad364e35~amd64~{{ item }}~.cab
